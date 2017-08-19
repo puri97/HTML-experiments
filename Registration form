@@ -1,0 +1,69 @@
+<html>
+<body bgcolor="pink">
+<h1>Registration form</h1>
+<form>
+<table>
+<tr>
+<td>Username</td>
+<td><input type="text" name="username"/ ></td>
+</tr>
+<tr>
+<td>Name</td>
+<td><input type="text" /></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password"></td>
+</tr>
+<tr>
+<td>Confirm Password</td>
+<td><input type="password"></td>
+</tr>
+<tr>
+<td>Mail-id</td>
+<td><input type="text"/></td>
+</tr>
+<tr>
+<td>Date of Birth</td>
+<td><input type="text" name="dob"/></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><input type="text" name="address"/></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name=gender value="male"/>Male</td>
+<td><input type="radio" name=gender value="female"/>Female</td>
+</tr>
+<tr>
+<td rowspan="4">Languages known:</td>
+<td><input type="checkbox" name="lang" value="on"/>English</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="lang" value="on"/>Hindi</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="lang" value="on"/>Marathi</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="lang" value="on"/>Others</td></td>
+</tr>
+<tr>
+<td>Security question</td>
+<td><select name="sq">
+<option value="pet" selected>What is ur pet name?</option>
+<option value="sch" >What is ur school name?</option></select>
+</td>
+</tr>
+<tr>
+<td>Browse<input type="file"></td>
+</tr>
+<tr>
+<td><input type="button" name="submit" value="Submit"/></td>
+<td><input type="reset" name="reset" value="Reset"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
